@@ -1,86 +1,33 @@
-# 💸 CashClipBot
+# CashClipBot
 
-A fully automated bot script for interacting with [CashClipBot](https://t.me/CashClipBot?start=2024951199). Built by **AirdropScriptFA** and **ForestArmy**, this bot simplifies tasks and actions while maintaining speed, efficiency, and Telegram compliance.
+An automation project for interacting with a Telegram-based bot.
 
----
+## ✨ Overview
 
-## 📌 Bot Link
+The repository contains the existing automation script and supporting files for the project.
 
-[🚀 Launch CashClipBot on Telegram](https://t.me/CashClipBot?start=2024951199)
+## 📁 Main Files
 
----
+| File | Purpose |
+|---|---|
+| `main.py` | Main script |
+| `user.txt` | User or token input used by the existing project |
+| `README.md` | Project documentation |
+| `LICENSE` | License information |
 
-## 📂 Files Included
+## 🚀 Usage
 
-| File        | Description                                |
-|-------------|--------------------------------------------|
-| `main.py`   | Main automation logic                      |
-| `user.txt`  | Token or user data input                   |
-| `README.md` | Documentation (this file)                  |
-| `LICENSE`   | License info for open-source compliance    |
-
----
-
-## ✅ Features
-
-- Fast and automated interaction with CashClipBot
-- Supports token/user loading from `user.txt`
-- Efficient and lightweight structure
-- Beginner-friendly and ready-to-use
-
----
-
-## 🛠️ Setup Instructions
-
-1. **Clone the Repository:**
-
-```bash
-git clone https://github.com/AirdropScriptFA/CashClipBot
-cd CashClipBot
-```
-
-2. **Add Your Tokens or User IDs:**
-
-Edit `user.txt` and paste one entry per line.
-
-```bash
-nano user.txt
-```
-
-3. **Run the Bot:**
-
-```bash
-python3 main.py
-```
-
----
-
-## ⚙️ Requirements
-
-Install dependencies (if needed):
+Install the dependencies used by the project, then run the existing Python entry point:
 
 ```bash
 pip install -r requirements.txt
+python3 main.py
 ```
 
-Or install individually:
+## ⚠️ Disclaimer
 
-```bash
-pip install aiohttp colorama
-```
+Use the project responsibly and only where permitted by the relevant platform's rules and terms.
 
----
+## 📌 Note
 
-## 📢 Disclaimer
-
-This bot is for **educational and automation learning purposes only**. Use responsibly. We are not liable for any misuse.
-
----
-
-## 🌐 Community & Support
-
-- 🔗 [AIRDROP SCRIPT FA](https://t.me/airdropscriptfa)
-- 🔗 [Forest Army](https://t.me/forestarmy)
-- 📺 [YouTube - ForestArmy](https://youtube.com/forestarmy)
-
----
+This cleanup only improves the documentation. Existing project files and functionality are preserved.
